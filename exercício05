@@ -1,0 +1,10 @@
+#Faça um Programa que leia 20 números inteiros e armazene-os num vetor. Armazene os números pares no vetor PAR e os números IMPARES no vetor impar. Imprima os três vetores.
+todos_numeros = [n for n in range(21)] #Toda a lista de numeros, até o 21 desta maneira ele ira imprimir até o numero 20 pois os numeros começam a contar a partir do Numero 0.
+
+par = [y for y in todos_numeros if y%2==0] # Lista todos_numeros Dividido por 2 == 0 y
+
+impar = [x for x in todos_numeros if not x%2==0] # Lista todos_numeros O not na frente x%2==0 Este not esta negando os numeros pares desta forma ele ira imprimir os numeros impares.
+
+print("Lista Completa de todos os numeros: ",todos_numeros)
+print("Lista de todos os numeros Pares: ",par)
+print("Lista de todos os numeres Ímpares:",impar)
