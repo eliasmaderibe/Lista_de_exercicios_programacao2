@@ -1,0 +1,10 @@
+#Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
+
+
+a=[]
+for k in range(5):
+    c=input("numero=")
+    a.append(int(c))
+    print(a,c)
+print("     ")
+print("Linsta=",a)
